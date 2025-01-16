@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ActivityDemo</string>
+    <string name="popup_text">Hello World</string>
+</resources>
