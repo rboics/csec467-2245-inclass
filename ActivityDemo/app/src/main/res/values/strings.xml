@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">ActivityDemo</string>
-    <string name="popup_text">Hello World</string>
+    <string name="secret_key">Hello World</string>
 </resources>
