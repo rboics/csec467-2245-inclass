@@ -3,10 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools">
 
 
-    <uses-permission android:name="com.csec467.custom_permission_producer.ACCESS_DATA"/>
 
     <uses-sdk
         android:minSdkVersion="26"/>
+    <uses-permission android:name="com.csec467.custom_permission_producer.ACCESS_DATA"/>
 
     <application
         android:allowBackup="true"

@@ -2,7 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <permission android:name="com.csec467.custom_permission_producer.ACCESS_DATA" />
+    <permission android:name="com.csec467.custom_permission_producer.ACCESS_DATA"
+        android:protectionLevel=""/>
 
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
 

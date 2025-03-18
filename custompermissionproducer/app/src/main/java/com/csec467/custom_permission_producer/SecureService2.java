@@ -1,5 +1,7 @@
 package com.csec467.custom_permission_producer;
 
+import static java.lang.Thread.sleep;
+
 import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
@@ -19,6 +21,12 @@ public class SecureService2 extends Service {
     }
 
     private void sendSecretData(){
+
+      /*  try {
+            sleep(10000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }*/
         Log.d("SecureService","Handling Request");
 
         String superSecretData = "Hello World";
